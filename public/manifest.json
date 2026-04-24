@@ -1,0 +1,45 @@
+{
+  "name": "تواصل حبايب ❤",
+  "short_name": "تواصل حبايب",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#17212b",
+  "background_color": "#17212b",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "ar",
+  "dir": "rtl",
+  "prefer_related_applications": false,
+  "categories": ["social", "communication", "messaging"],
+  "gcm_sender_id": "103953800507",
+  "permissions": [
+    "notifications",
+    "push"
+  ],
+  "icons": [
+    {
+      "src": "/images/telegram-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/telegram-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/telegram-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/telegram-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

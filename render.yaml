@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: telegram-clone-socket-server
+    env: node
+    buildCommand: npm install
+    startCommand: npm run server
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+      - key: secretKey
+        sync: false
